@@ -1,2 +1,1 @@
-# gwg
-GWG proposals and design documents
+# GWG proposals and design documents
