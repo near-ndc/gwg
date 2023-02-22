@@ -1,8 +1,6 @@
 # Proposals
 
-This is a location to record all design decisions and improvement proposals at GWG.
-
-A _proposal_ is a request for improvement and should provide:
+This is a location to record all design decisions and improvement proposals at GWG. A _proposal_ should provide:
 
 - Context on the current state
 - Proposed changes to achieve the goals
@@ -10,6 +8,8 @@ A _proposal_ is a request for improvement and should provide:
 - Example scenarios
 - Discussions of pros, cons, hazards and alternatives
 - follow the [Template](./TEMPLATE.md)
+
+In contrast to a [RFP](../RFPs/README.md), an improvement proposal describes a design or architecture decision rather than a request to outsource a project.
 
 ## Rules
 
