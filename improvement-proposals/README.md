@@ -1,6 +1,6 @@
 # Proposals
 
-This is a location to record all design decisions and proposals at GWG.
+This is a location to record all design decisions and improvement proposals at GWG.
 
 A _proposal_ is a request for improvement and should provide:
 
