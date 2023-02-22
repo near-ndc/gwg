@@ -15,9 +15,10 @@ The goal of a RFP process is to find and select contractors capable and competit
 1. Discuss the need or the problem with the GWG community.
 2. Evaluate how important it is. What are the consequences of not building it?
 3. Draft the scope, requirements, timeline, expected functionality etc...
-4. Collect all of it in a new RFP document based on the [template](./TEMPLATE.md)
-5. Submit the new RFP using GitHub Pull Request.
-6. After successful review and merge, the RFP is ready for submissions.
+4. Clarify selection criteria.
+5. Collect all of it in a new RFP document based on the [template](./TEMPLATE.md)
+6. Submit the new RFP using GitHub Pull Request.
+7. After successful review and merge, the RFP is ready for submissions.
 
 ## Submitting a bid for RFP
 

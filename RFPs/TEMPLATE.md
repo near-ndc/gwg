@@ -29,6 +29,10 @@ Optionally Budget limit
 - submission deadline
 - expected delivery time
 
+## Selection Criteria
+
+Make contractors aware of all the business-related criteria you are examining in your selection process.
+
 ## Open Questions and Comments
 
 - potential future improvements
