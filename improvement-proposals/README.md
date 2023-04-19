@@ -9,7 +9,7 @@ This is a location to record all design decisions and improvement proposals at G
 - Discussions of pros, cons, hazards and alternatives
 - follow the [Template](./TEMPLATE.md)
 
-In contrast to a [RFP](../RFPs/README.md), an improvement proposal describes a design or architecture decision rather than a request to outsource a project.
+In contrast to a [RFP](../RFPs/README.md), an improvement proposal describes a design or architecture decision rather than a project specification with a request to outsource that project.
 
 ## Rules
 
@@ -19,3 +19,7 @@ The current process for proposals is:
 - A proposal, once finalized, should not be significantly modified.
 - A proposal can be superseded by another proposal.
 - When a design document's decision is superseded, a reference to the new design should be added to its text.
+
+New to technical specs? Here are some resources to help you effectively create and leverage these documents:
+
+- [A Practical Guide To Writing Technical Specs](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)

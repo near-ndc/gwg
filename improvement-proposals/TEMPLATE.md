@@ -35,7 +35,7 @@
 
 ### User requirements
 
-> Specify expected user behavior
+> Specify expected user behavior or a process structure
 
 ### Outcomes
 

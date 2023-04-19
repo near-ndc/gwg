@@ -1,6 +1,13 @@
-# RFP Template
+---
+#: <rfp number>
+Status: Draft | Review | Approved | Rejected
+Category: NEAR Social | Proof of Personhood | ...
+Created: YYYY-MM-DD
+Replaces: rfp-xxx
+Requires: rfp-xxx
+---
 
-# <RFP Title>
+# <RFP Number and Title>
 
 ## Summary
 
@@ -23,6 +30,27 @@ Describe:
 
 Optionally Budget limit
 
+## Use Cases
+
+### Actors
+
+> List all users and their types
+
+### Actions
+
+> List the actions each collective will take individually.
+
+### Actor/Action Matrix
+
+> Describe which action is done by which actors. Feel free to use a table format or provide your own graphics. A "swimlane process chart" often works well here.
+
+|         | Action 1 | Action 2 | Action 3 | action 4 |
+| ------- | -------- | -------- | -------- | -------- |
+| Actor 1 |          |          |          |          |
+| Actor 2 |          |          |          |          |
+| Actor 3 |          |          |          |          |
+| Actor 4 |          |          |          |          |
+
 ## Timeline
 
 - submission start time
@@ -37,6 +65,8 @@ Make contractors aware of all the business-related criteria you are examining in
 
 - potential future improvements
 - summary of open discussion
+
+## Changelog
 
 ## References
 
