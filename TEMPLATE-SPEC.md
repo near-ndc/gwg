@@ -54,16 +54,6 @@ Describe which action is done by which actors. Feel free to use a table format o
 | Actor 3 |          |          |          |          |
 | Actor 4 |          |          |          |          |
 
-## Timeline
-
-- submission start time
-- submission deadline
-- expected delivery time
-
-## Selection Criteria
-
-Make contractors aware of all the business-related criteria you are examining in your selection process.
-
 ## Open Questions and Comments
 
 - potential future improvements
