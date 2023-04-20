@@ -1,15 +1,15 @@
-# Design Doc {NUMBER}: {TITLE}
+---
+#: <spec number>
+Status: Draft | Review | Approved | Rejected | Superseded
+Category: NEAR Social | Proof of Personhood | ...
+Created: YYYY-MM-DD
+Replaces: spec-xyz
+Requires: spec-xyz | ip-xyz
+---
 
-## Status
+# IP-<Number>: <Title>
 
-> A Status may be Draft if we want to break discussion in few PRs to break down a longer process in few steps.
-> At the end of the process each design has to be either Accepted or Declined.
-> If a later design doc significantly changes or reverses a decision, it may be marked
-> as superseded" with a reference to its replacement.
-
-{Draft|Accepted|Declined|Superseded}
-
-## Abstract
+## Summary
 
 > "If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the problem or feature.
 > Keep it short. Max 200 words.
@@ -67,16 +67,16 @@
 
 ### Backwards Compatibility
 
-> All design docs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The doc must explain how the author proposes to deal with these incompatibilities. Submissions without a sufficient backwards compatibility treatise may be rejected outright.
+> All proposals that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The doc must explain how the author proposes to deal with these incompatibilities. Submissions without a sufficient backwards compatibility treatise may be rejected outright.
 
 ## Further Discussions
 
 > This section should contain potential followups or issues to be solved in future iterations (usually referencing comments from a pull-request discussion).
 
-## Comments
+## Open Questions and Comments
 
-> Optional. Provide additional important comments.
-> If the proposal is rejected, document why it was rejected.
+> - potential future improvements
+> - summary of open discussion
 
 ## References
 
@@ -84,3 +84,9 @@
 > referenced for why we made the given design choice? If so link them here!
 
 - {reference link}
+
+## Changelog
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

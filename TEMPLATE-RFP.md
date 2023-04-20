@@ -1,13 +1,13 @@
 ---
 #: <rfp number>
-Status: Draft | Review | Approved | Rejected
+Status: Draft | Review | Approved | Rejected | Delivered
 Category: NEAR Social | Proof of Personhood | ...
 Created: YYYY-MM-DD
-Replaces: rfp-xxx
-Requires: rfp-xxx
+Replaces: rfp-xyz
+Requires: rfp-xyz | spec-xyz | ip-xyz
 ---
 
-# <RFP Number and Title>
+# RFP-<Number>: <Title>
 
 ## Summary
 
@@ -18,7 +18,7 @@ Background and short summary in layman terms.
 What's the "historical" context? Why do we need a new project?
 Identify the problems and the needs.
 
-## Scope of work
+## Scope and Requirements
 
 Describe:
 
@@ -27,22 +27,25 @@ Describe:
 - User profile description. Who is the user? How she/he is expected to us it?
 - Requirements, assumptions and dependencies (internal and external).
 - Outline identified potential problems and roadblocks related to building the solution.
+- Optionally: Budget limit.
 
-Optionally Budget limit
+### Backwards Compatibility
+
+All proposals that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The doc must explain how to deal with these incompatibilities or the set of requirements to for the backward compatibility to be discussed in a submission. Submissions without a sufficient backwards compatibility treatise may be rejected outright.
 
 ## Use Cases
 
 ### Actors
 
-> List all users and their types
+List all users and their types
 
 ### Actions
 
-> List the actions each collective will take individually.
+List the actions each collective will take individually.
 
-### Actor/Action Matrix
+### Actor/Action Matrix [optional]
 
-> Describe which action is done by which actors. Feel free to use a table format or provide your own graphics. A "swimlane process chart" often works well here.
+Describe which action is done by which actors. Feel free to use a table format or provide your own graphics or bundle the description in the Actions section. A "swimlane process chart" often works well here.
 
 |         | Action 1 | Action 2 | Action 3 | action 4 |
 | ------- | -------- | -------- | -------- | -------- |
@@ -66,8 +69,15 @@ Make contractors aware of all the business-related criteria you are examining in
 - potential future improvements
 - summary of open discussion
 
-## Changelog
-
 ## References
 
-List of links to related resources and discussions
+Are there any relevant PR comments, issues that led up to this, or articles
+referenced for why we made the given design choice? If so link them here!
+
+- {reference link}
+
+## Changelog
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
