@@ -1,8 +1,8 @@
 ---
 #: 1
-Status: Approved
+Status: Review
 Category: NEAR Social
-Created: 2023-03
+Created: 2023-03-28
 Replaces: --
 Requires: --
 ---
@@ -28,7 +28,7 @@ As governance processes of the Near Digital Collective (NDC) are coming closer t
 
 The NDC, originally envisioned by Illia Polosukhin, the co-founder of NEAR Protocol, is now a fully fledged movement led by the NEAR Community. Its goal is to establish a community treasury and governance model that allows the ecosystem to collectively make decisions on everything from funding to elected representatives and more. It's a significant step towards creating a truly decentralized network.
 
-## Scope of work
+## Scope and Requirements
 
 For the purposes of this spec, it can be assumed that the NDC will be made up of a number of Sputnik DAOs (or similar), each with a set of Elected Members and a set of Treasury Trustees. The initial list of DAOs can be assumed to be the following:
 
@@ -44,8 +44,6 @@ For the purposes of this spec, it can be assumed that the NDC will be made up of
   - Developer DAO
   - Creatives DAO
   - Governance Working Group
-
-## Requirements
 
 The solution should
 
@@ -77,3 +75,24 @@ The solution should support a number of different metrics
   - Payment (allocated / disbursed)
   - Vote (launched / approved / rejected / expired)
   - Member change (added / removed)
+
+## Timeline
+
+> - submission start time
+> - submission deadline
+> - expected delivery time
+
+## Selection Criteria
+
+> Make contractors aware of all the business-related criteria you are examining in your selection process.
+
+## Open Questions and Comments
+
+> - potential future improvements
+> - summary of open discussion
+
+## Changelog
+
+## References
+
+> List of links to related resources and discussions
