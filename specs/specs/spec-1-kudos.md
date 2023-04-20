@@ -25,11 +25,11 @@ Other potential names for this widget:
 - High Five
 - Props
 
-## Scope of Work
+## Scope and Requirements
 
 Finalize the features and UX for launch, complete integrations to IamHuman and SBT standard.
 
-## Requirements
+Requirements:
 
 - Tag any BOS/NEARSocial/Discovery account
 - Notify the account of the Kudo via the Notifications API
@@ -65,11 +65,7 @@ Any account registered on BOS/NEARSocial/Discovery will be able to use the widge
 - isHuman
 - mintSBT
 
-### Process Flows
-
-> REPLACE THIS TEXT
-
-### Screens
+### UI
 
 > REPLACE THIS TEXT
 
@@ -88,3 +84,9 @@ Any account registered on BOS/NEARSocial/Discovery will be able to use the widge
 [MainPage.Post.Header](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post.Header)
 [MainPage.Post](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post)
 [showCommentsButton](https://near.social/#/neardigitalcollective.near/widget/showCommentsButton)
+
+## Changelog
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
