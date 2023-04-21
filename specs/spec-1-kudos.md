@@ -81,6 +81,8 @@ Any account registered on BOS/NEARSocial/Discovery will be able to use the widge
 
 TODO: link to the screens
 
+- [UI designs](https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/464535).
+
 #### Dependent Widgets
 
 [Kudos.Styles](https://near.social/#/neardigitalcollective.near/widget/Kudos.Styles)
