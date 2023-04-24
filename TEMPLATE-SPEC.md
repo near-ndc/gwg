@@ -43,8 +43,6 @@ List all users and their types
 
 List the actions each collective will take individually.
 
-### Actor/Action Matrix [optional]
-
 Describe which action is done by which actors. Feel free to use a table format or provide your own graphics or bundle the description in the Actions section. A "swimlane process chart" often works well here.
 
 |         | Action 1 | Action 2 | Action 3 | action 4 |
@@ -53,6 +51,17 @@ Describe which action is done by which actors. Feel free to use a table format o
 | Actor 2 |          |          |          |          |
 | Actor 3 |          |          |          |          |
 | Actor 4 |          |          |          |          |
+
+## Consequences
+
+This section describes the consequences, after applying the decision. All
+consequences should be summarized here, not just the "positive" ones.
+
+### Positive
+
+### Negative
+
+### Neutral
 
 ## Open Questions and Comments
 
