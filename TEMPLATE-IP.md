@@ -1,10 +1,10 @@
 ---
-#: <spec number>
+IP ID: <number>
 Status: Draft | Review | Approved | Rejected | Superseded
 Category: NEAR Social | Proof of Personhood | ...
 Created: YYYY-MM-DD
-Replaces: spec-xyz
-Requires: spec-xyz | ip-xyz
+Replaces: ip-xyz
+Requires: ip-xyz
 ---
 
 # IP-<Number>: <Title>

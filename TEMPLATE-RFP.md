@@ -1,5 +1,5 @@
 ---
-#: <rfp number>
+RFP ID: <number>
 Status: Draft | Review | Approved | Rejected | Delivered
 Category: NEAR Social | Proof of Personhood | ...
 Created: YYYY-MM-DD
