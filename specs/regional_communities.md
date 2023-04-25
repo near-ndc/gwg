@@ -3,7 +3,7 @@ Spec ID: 2
 Status: Draft
 Category: NEAR Social
 Created: 2023-04-19
-Replaces: https://github.com/near-ndc/widget-specs/blob/main/specs/regional_communities.md 
+Replaces: 
 Requires:
 ---
 
