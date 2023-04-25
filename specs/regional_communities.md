@@ -1,5 +1,5 @@
 ---
-Spec Nbr: 2
+Spec ID: 2
 Status: Draft
 Category: NEAR Social
 Created: 2023-04-19
