@@ -17,9 +17,11 @@ Kudos is a widget to build a reputation. The widget will allow any verified huma
 
 <!--
 Points for reviewers to consider:
-    - Be pragmatic: Is there enough information to begin coding? Practically, implementation will reveal the unforeseeable. This doc can evolve to record those issues/resolutions.
-    - Wide angle view: Do you know of overlapping projects? Are there OKRs or other non-technical forces that would push/pull priority?
-    - Optimization: Describe alternate approaches and why they are better. Use Caveats section for approaches under consideration, even if they are ultimately abandoned. 
+
+- Be pragmatic: Is there enough information to begin coding? Practically, implementation will reveal the unforeseeable. This doc can evolve to record those issues/resolutions.
+- Wide angle view: Do you know of overlapping projects? Are there OKRs or other non-technical forces that would push/pull priority?
+- Optimization: Describe alternate approaches and why they are better. Use Caveats section for approaches under consideration, even if they are ultimately abandoned. 
+
 --> 
 
 **Authors & Reviewers:** @starpause, @robert-zaremba, @htafolla
@@ -35,23 +37,23 @@ Points for reviewers to consider:
 
 <!-- Topics not covered in this document that need to be addressed in a meeting or async -->
 
-Q: Should use Social DB for upvotes?
-- ?
+**Q:** Should use Social DB for upvotes?
+**A:**
 
-Q: Should we issue SBT when someone gives a Kudo (Con: Feels spammy, costs more)? Or when someone claims their SBT after reaching a # of upvotes (Con: Less SBT will be issued)?
-- ?
+**Q:** Should we issue SBT when someone gives a Kudo (Con: Feels spammy, costs more)? Or when someone claims their SBT after reaching a # of upvotes (Con: Less SBT will be issued)?
+**A:**
 
-Q: What happens when a Kudo expires? 
-- ?
+**Q:** What happens when a Kudo expires? 
+**A:**
 
-Q: Is commenting limited to verified humans?
-- ?
+**Q:** Is commenting limited to verified humans?
+**A:**
 
-Q: Who would "follow a kudo" and why? What notifications would such a follow recieve? 
-- ?
+**Q:** Who would "follow a kudo" and why? What notifications would such a follow recieve? 
+**A:**
 
-Q: What threshold can we define for when an audit is appropriate? 
-- ?
+**Q:** What threshold can we define for when an audit is appropriate? 
+**A:**
 
 # Overview
 
@@ -106,21 +108,25 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 <!-- List the different groups of people that will use this widget and what each one can specifically do. If more clarity is needed you can include an actor/action matrix -->
 
 **Visitor** no credentials, not logged in.
+
 - View Kudos List
 - View Kudos Detail
 - Share Kudos (list and deep link to a Kudo detail)
 
 **User** logged in to NS.
+
 - Everything visitor can do
 - Comment on Kudos
 - React to Kudos 
 
 **Verified Human** logged in user who has credentials issued by `i-am-human`.
+
 - Everything User can do
 - Create new Kudos
 - Recieve new Kudos
 
 **Administrator** can take additional actions not availalbe to other actors.
+
 - Everything Verified Human can do
 - Delete Kudos
 - Change Settings
@@ -131,6 +137,7 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 ## User Stories / Use Cases
 
 Here are some user stories or use cases for the Kudos widget based on the provided text:
+
 1. As a **visitor** (not logged in), I want to view the Kudos list, so I can see the various accomplishments and recognitions in the community.
 2. As a **visitor**, I want to view Kudos details, so I can learn more about a specific Kudo and understand its context.
 3. As a **visitor**, I want to share Kudos (list and deep link to a Kudo detail), so I can promote achievements and encourage others to engage with the community.
@@ -235,9 +242,6 @@ https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/46453
 - [MainPage.Post](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post)
 - [showCommentsButton](https://near.social/#/neardigitalcollective.near/widget/showCommentsButton)
 
-
-
-
 # Work Plan
 
 ## Phases
@@ -286,6 +290,7 @@ Contract is low risk until reputation gained with Kudos grants access to funds w
 **Kudo** is a form of a recommendation to share a gratitude or achievement shared between humans.
 
 **I Am Human (IAH)** Protocol for verifying personhood. 
+
 - [dApp on testnet](https://i-am-human-dev.netlify.app/) 
 - [dApp source](https://github.com/near-ndc/i-am-human-dapp)
 - [Protocol](https://github.com/near-ndc/i-am-human)
