@@ -1,5 +1,5 @@
 <!-- Objective. In a few sentences, describe the key system objectives. Tweet length executive summary. -->
-# RFP 2: Kudos Widget
+# Spec 1: Kudos Widget
 Kudos is a widget to build a reputation. The widget will allow any verified human to nominate, recieve, and interact with Kudos on Near Social.
 
 # Metadata
