@@ -38,21 +38,27 @@ Points for reviewers to consider:
 <!-- Topics not covered in this document that need to be addressed in a meeting or async -->
 
 **Q:** Should use Social DB for upvotes?
+
 **A:**
 
 **Q:** Should we issue SBT when someone gives a Kudo (Con: Feels spammy, costs more)? Or when someone claims their SBT after reaching a # of upvotes (Con: Less SBT will be issued)?
+
 **A:**
 
 **Q:** What happens when a Kudo expires? 
+
 **A:**
 
 **Q:** Is commenting limited to verified humans?
+
 **A:**
 
 **Q:** Who would "follow a kudo" and why? What notifications would such a follow recieve? 
+
 **A:**
 
 **Q:** What threshold can we define for when an audit is appropriate? 
+
 **A:**
 
 # Overview
@@ -78,19 +84,19 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 - Reddit
 - StackOverflow
 - [lemmy](https://lemmy.ml/)
-    - Open source
+  - Open source
 
 ### Web3 Inspiration
 
 - [webuidl Kudos](https://near.social/#/webuidl.near/widget/Kudos)
-    - Remove color background on each Kudo.
-    - Move upvote button to the left of each row.
-    - Use spacing that the input labels are clear which box they belong to.
-    - Input a near name instead of a url.
-    - Remove the follow/following button.
-    - On submission text inputs do not clear out and the kudo does not appear.
-    - Allow markdown in the accolade.
-    - Preview of accolade. 
+  - Remove color background on each Kudo.
+  - Move upvote button to the left of each row.
+  - Use spacing that the input labels are clear which box they belong to.
+  - Input a near name instead of a url.
+  - Remove the follow/following button.
+  - On submission text inputs do not clear out and the kudo does not appear.
+  - Allow markdown in the accolade.
+  - Preview of accolade. 
 - [MetaStakingVote on NS](https://near.social/#/meta-pool-official.near/widget/MetaStakingVote)
 
 ### Other potential names for this widget:
@@ -130,9 +136,9 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 - Everything Verified Human can do
 - Delete Kudos
 - Change Settings
-    - Create or remove categories (aka tags)
-    - Adjust experiation time of Kudos
-    - Delete Kudos
+  - Create or remove categories (aka tags)
+  - Adjust experiation time of Kudos
+  - Delete Kudos
 
 ## User Stories / Use Cases
 
