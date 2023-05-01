@@ -1,18 +1,15 @@
+---
+Spec ID: 1
+Status: Review
+Category: NEAR Social Widget
+Created: 2023-04-21
+Replaces: n/a
+Requires: n/a
+---
+
 <!-- Objective. In a few sentences, describe the key system objectives. Tweet length executive summary. -->
 # Spec 1: Kudos Widget
 Kudos is a widget to build a reputation. The widget will allow any verified human to nominate, recieve, and interact with Kudos on Near Social.
-
-# Metadata
-
-<!-- Common status: Inception, Draft, Community consultation, Locked: RFP ongoing, Locked: RFP awarded, Obsolete -->
-## Status
-| Key       | Value                 |
-|-----------|-----------------------|
-| **#**    | 1                     |
-| **Status**  | Review              |
-| **Category** | NEAR Social        |
-| **Replaces** | --                 |
-| **Requires** | --                 |
 
 <!--
 Points for reviewers to consider:
