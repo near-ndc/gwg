@@ -99,13 +99,12 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
   - Preview of accolade. 
 - [MetaStakingVote on NS](https://near.social/#/meta-pool-official.near/widget/MetaStakingVote)
 
-### Other potential names for this widget:
+### Other potential names for this widget
 
 - High Five
 - Props
 
 # Features
-
 
 <!-- Who is using this and what does it do? Leave "how" to the design/tech specification sections -->
 
@@ -301,12 +300,11 @@ Contract is low risk until reputation gained with Kudos grants access to funds w
 - [dApp source](https://github.com/near-ndc/i-am-human-dapp)
 - [Protocol](https://github.com/near-ndc/i-am-human)
 
-**Soul Bound Token (SBT)** 
+**Soul Bound Token (SBT)** tbd
 
-**Near Social (NS)**
+**Near Social (NS)** tbd
 
-**Widget**
-
+**Widget** tbd
 
 ## Copyright
 
