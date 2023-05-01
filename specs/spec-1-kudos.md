@@ -244,7 +244,7 @@ https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/46453
 - [Kudos](https://near.social/#/neardigitalcollective.near/widget/Kudos)
 - [kudoBox](https://near.social/#/neardigitalcollective.near/widget/kudoBox)
 - [FollowButton](https://near.social/#/neardigitalcollective.near/widget/FollowButton)
-[- MainPage.Post.Header](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post.Header)
+- [MainPage.Post.Header](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post.Header)
 - [MainPage.Post](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post)
 - [showCommentsButton](https://near.social/#/neardigitalcollective.near/widget/showCommentsButton)
 
