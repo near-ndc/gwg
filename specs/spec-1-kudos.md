@@ -84,7 +84,7 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 - Reddit
 - StackOverflow
 - [lemmy](https://lemmy.ml/)
-  - Open source
+- Open source
 
 #### Web3 Inspiration
 
