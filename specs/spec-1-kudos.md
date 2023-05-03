@@ -69,7 +69,7 @@ Points for reviewers to consider:
 
 <!-- List the challenge(s) being solved by this widget. What is the problem? -->
 
-The specific purpose of the Kudos widget is to crowd source reputation through gamification. Kudos needs to foster recognition and celebrations of individuals, nodes, projects, workgroups or collectives for their contribution to NEAR. 
+The specific purpose of the Kudos widget is to crowd source reputation through gamification. Kudos needs to foster recognition and celebrations of individuals for their contribution to NEAR (in the context of nodes, projects, workgroups, collectives, etc).  
 
 ### Context / Background
 
