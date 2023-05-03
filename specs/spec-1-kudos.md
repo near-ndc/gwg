@@ -173,7 +173,7 @@ The following features will use the Social DB smart contract with the Kudos UI d
   - Upvotes will be stored in the Social DB or in the Kudo SBT issuer.
 - Comment on a Kudo
   - Any human can comment on a Kudo (only even if a Kudo expired). 
-  - Comments will be implemented using existing Near Social widget.
+  - Comments will be implemented using existing Near Social widget (and allow threading aka responses to comments).
 - Check the actor is registered with IamHuman
 - Share a Kudo (deep link)
 
