@@ -33,7 +33,7 @@ Points for reviewers to consider:
 | 0.2.0   | 2023-04-23 | @starpause      | Merged prior writting by @robert-zaremba from his [Github version](https://github.com/near-ndc/gwg/pull/1)                   |
 | 0.3.0   | 2023-04-25 | @starpause      | Addressed review comments, formated sections to more closely match [template](https://github.com/near-ndc/gwg/blob/main/TEMPLATE-SPEC.md)                                                                            |
 
-# Open Questions
+## Open Questions
 
 <!-- Topics not covered in this document that need to be addressed in a meeting or async -->
 
@@ -61,17 +61,17 @@ Points for reviewers to consider:
 
 **A:**
 
-# Overview
+## Overview
 
 <!-- One page high-level overview; put details in the specification section and background in the previous section. Should be understandable by a new engineer or reader who isn't already working on the project. -->
 
-## Challenge
+### Challenge
 
 <!-- List the challenge(s) being solved by this widget. What is the problem? -->
 
 The specific purpose of the Kudos widget is to crowd source reputation through gamification. Kudos needs to foster recognition and celebrations of individuals, nodes, projects, workgroups or collectives for their contribution to NEAR. 
 
-## Context / Background
+### Context / Background
 
 <!-- Stuff one needs to know to understand this doc: motivating examples, previous versions and problems, links to related projects/design docs, etc. You should mention related work outside of Google if applicable. Note: this is background; do not write about your design or ideas to solve problems here. -->
 
@@ -79,14 +79,14 @@ Reputation is a need in the context of NS. Kudos can be used to build reputation
 
 Upvoting is required in various contexts on [NS](https://near.social). Once we have a solution that meets the requirements, the Kudos Widget will serve as a conventional implementation for anyone who wants to fork the widget for other purposes (such as governance nominations).
 
-### Web2 Inspiration
+#### Web2 Inspiration
 
 - Reddit
 - StackOverflow
 - [lemmy](https://lemmy.ml/)
   - Open source
 
-### Web3 Inspiration
+#### Web3 Inspiration
 
 - [webuidl Kudos](https://near.social/#/webuidl.near/widget/Kudos)
   - Remove color background on each Kudo.
@@ -99,16 +99,16 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
   - Preview of accolade. 
 - [MetaStakingVote on NS](https://near.social/#/meta-pool-official.near/widget/MetaStakingVote)
 
-### Other potential names for this widget
+#### Other potential names for this widget
 
 - High Five
 - Props
 
-# Features
+## Features
 
 <!-- Who is using this and what does it do? Leave "how" to the design/tech specification sections -->
 
-## Actors / Actions
+### Actors / Actions
 
 <!-- List the different groups of people that will use this widget and what each one can specifically do. If more clarity is needed you can include an actor/action matrix -->
 
@@ -139,7 +139,7 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
   - Adjust experiation time of Kudos
   - Delete Kudos
 
-## User Stories / Use Cases
+### User Stories / Use Cases
 
 Here are some user stories or use cases for the Kudos widget based on the provided text:
 
@@ -153,11 +153,11 @@ Here are some user stories or use cases for the Kudos widget based on the provid
 8. As an **administrator**, I want to delete Kudos, so I can remove inappropriate or unwanted content from the platform.
 9. As an **administrator**, I want to change settings, such as creating or removing categories, adjusting expiration time of Kudos, and deleting Kudos, so I can maintain a positive and productive environment for the community.
 
-## Additional Requirements
+### Additional Requirements
 
 The following features will use the Social DB smart contract with the Kudos UI developed in Near Social.
 
-### Create a kudo
+#### Create a kudo
 
 - Tag any IAH verified account
 - Notify the account of the Kudo via the Notifications API
@@ -166,7 +166,7 @@ The following features will use the Social DB smart contract with the Kudos UI d
 - Check that creator and reciever are registered with IamHuman.
 - Account receiving a Kudo will get receive Near Social notification via Notifications API.
 
-### Interact with existing Kudo
+#### Interact with existing Kudo
 
 - Upvote a Kudo
   - Any human can upvote a Kudo (only when Kudo is not expired). 
@@ -178,63 +178,63 @@ The following features will use the Social DB smart contract with the Kudos UI d
 - Check the actor is registered with IamHuman
 - Share a Kudo (deep link)
 
-### Displaying Kudos
+#### Displaying Kudos
 
 - Show overview of all Kudos
 - Sort Kudos by date, # of upvotes, # of comments
 - Lead with the name of the person recieving the Kudo, then why.
 
-### Display Kudo details
+#### Display Kudo details
 
 - Show who, why, and the nominator
 - Show all comments
 - Show # of upvotes
 - Show who upvoted
 
-### Kudo Categories
+#### Kudo Categories
 
 - SBT standard provides a notion of classes. We will use it to define Kudo categories. Initial set of categories is following: Developer, Community, Manager, Showman, ...
 - TODO: finalize the categories
 
-### Spam protection
+#### Spam protection
 
 - Using proof of personhood is not enough to protect a system from abuse. One user could attach a bot to his account and send thousands of kudos to other accounts (potentially to the same human account).
 - We propose to limit that activity: Any human can send maximum 14 kudos per week. The quota will reset every Sunday at midday UTC (12:00). The quota will be a parameter and we will be able to change it in the future.
 - Moreover, the target user should be in control of the Kudos they recieve. Unwanted Kudos can be removed from display by either the nominee or nominator. 
 - Kudo sender will have to set an expire time. To make it more useful, the contract will require that a minimum expire time is 1month.
 
-# Tech Spec
+## Tech Spec
 
 <!-- How does the widget implement the features and requirements? Not every feature or requirement needs deep consideration here, but implementation considerations are discusssed they should be captured here. -->
 
-## Smart Contract Functions
+### Smart Contract Functions
 
 <!-- What functions and functionalities should the widget have -->
 
 - isHuman
 - mintSBT
 
-## Data Structures
+### Data Structures
 
-## UML Diagrams
+### UML Diagrams
 
 <!-- Include diagrams that best capture what needs to be built. Sequence, State, Interaction, Activity, Etc.-->
 
-# Design Specification
+## Design Specification
 
 <!-- UX and UI that affords all of the features and requirements. How it behaves and what it looks like. -->
 
-## Wireframes / Screens
+### Wireframes / Screens
 
 https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/464535
 
-## UI Design
+### UI Design
 
 - Follow Near Social convention of using [Bootstrap](https://getbootstrap.com/) snippets and components. 
 - Design for mobile first and desktop second.
 - Ensure all designs meet A11Y requirements such as contrast by testing the widget with a tool such as [SiteImprove](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc), [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Axe](https://www.deque.com/axe/), or [Wave](https://wave.webaim.org/).
 
-## Dependent Widgets
+### Dependent Widgets
 
 <!-- Does the widget interact with other widgets? -->
 
@@ -247,9 +247,9 @@ https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/46453
 - [MainPage.Post](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post)
 - [showCommentsButton](https://near.social/#/neardigitalcollective.near/widget/showCommentsButton)
 
-# Work Plan
+## Work Plan
 
-## Phases
+### Phases
 
 <!-- High-level summary of each phase (if the project does have multiple phases.)  -->
 
@@ -259,7 +259,7 @@ https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/46453
 - Integrate with IamHuman
 - Integrate with SBT Standard
 
-## Sprints
+### Sprints
 
 <!-- Break work down into week long chunks. If a team hasn't been identified then assume it will be an individual completing the work. Each sprint should include something which can be considered "Done" so that the product is usable as soon as possible and then recieves incremental improvements. -->
 
@@ -284,13 +284,13 @@ https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/46453
 || Administration features |
 || UX iteration that required smart contract |
 
-## Audit
+### Audit
 
 <!-- Identify if this widget needs an audit. Does it store sensitive information, transfer tokens, or have a middleware layer? Consult the Security Workgroup if needed. -->
 
 Contract is low risk until reputation gained with Kudos grants access to funds without human approval. When we see significant adoption/integrations then we can dedicate funds for a formal audit. 
 
-# Glossary & References
+## Glossary & References
 
 **Kudo** is a form of a recommendation to share a gratitude or achievement shared between humans.
 
