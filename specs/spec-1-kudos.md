@@ -137,7 +137,6 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 - Change Settings
   - Create or remove categories (aka tags)
   - Adjust experiation time of Kudos
-  - Delete Kudos
 
 ### User Stories / Use Cases
 
