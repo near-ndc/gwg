@@ -37,7 +37,7 @@ Points for reviewers to consider:
 
 <!-- Topics not covered in this document that need to be addressed in a meeting or async -->
 
-*Please include your knowledge & opinions via PR*
+Please include your knowledge & opinions via PR
 
 **Q:** Should use Social DB for upvotes?
 
