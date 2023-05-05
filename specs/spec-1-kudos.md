@@ -180,10 +180,11 @@ The following features will use the Social DB smart contract with the Kudos UI d
 - Check the actor is registered with IamHuman
 - Share a Kudo (deep link)
 
-#### Displaying Kudos
+#### Displaying All Kudos
 
 - Show overview of all Kudos
 - Sort Kudos by date, # of upvotes, # of comments
+- Filter Kudos by expired or not, tags, "my kudos" (ones user has interacted with)
 - Lead with the name of the person recieving the Kudo, then why.
 
 #### Display Kudo details
