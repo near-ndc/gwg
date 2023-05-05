@@ -125,6 +125,7 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 - Everything visitor can do
 - Comment on Kudos
 - React to Kudos 
+- Upvote Kudos
 
 **Verified Human** logged in user who has credentials issued by `i-am-human`.
 
