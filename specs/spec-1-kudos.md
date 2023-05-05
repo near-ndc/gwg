@@ -158,7 +158,7 @@ The following features will use the Social DB smart contract with the Kudos UI d
 
 #### Create a kudo
 
-- Tag any IAH verified account
+- Nominate any IAH verified account
 - Notify the account of the Kudo via the Notifications API
 - Send account SBT Badge for each Kudo.
 - Display the Kudo as a post in the activity feed.
@@ -245,6 +245,7 @@ https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/46453
 - [MainPage.Post.Header](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post.Header)
 - [MainPage.Post](https://near.social/#/neardigitalcollective.near/widget/MainPage.Post)
 - [showCommentsButton](https://near.social/#/neardigitalcollective.near/widget/showCommentsButton)
+- Notifications API
 
 ## Work Plan
 
