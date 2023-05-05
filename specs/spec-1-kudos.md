@@ -9,63 +9,11 @@ Requires: n/a
 
 # Spec 1: Kudos Widget
 
+## Overview
+
 <!-- Objective. In a few sentences, describe the key system objectives. Tweet length executive summary. -->
 
 Kudos is a widget to build a reputation. The widget will allow any verified human to nominate, recieve, and interact with Kudos on Near Social.
-
-## Changelog
-
-<!--
-Points for reviewers to consider:
-
-- Be pragmatic: Is there enough information to begin coding? Practically, implementation will reveal the unforeseeable. This doc can evolve to record those issues/resolutions.
-- Wide angle view: Do you know of overlapping projects? Are there OKRs or other non-technical forces that would push/pull priority?
-- Optimization: Describe alternate approaches and why they are better. Use Caveats section for approaches under consideration, even if they are ultimately abandoned. 
-
---> 
-
-**Authors & Reviewers:** @starpause, @robert-zaremba, @htafolla
-*Please insert your name here if you do review the document.*
-
-| Ver. | Date       | Author          | Changes Made                             |
-| ------- | ---------- | --------------- | ---------------------------------------- |
-| 0.1.0   | 2023-04-21 | @starpause      | Initial draft of the document            |
-| 0.2.0   | 2023-04-23 | @starpause      | Merged prior writting by @robert-zaremba from his [Github version](https://github.com/near-ndc/gwg/pull/1)                   |
-| 0.3.0   | 2023-04-25 | @starpause      | Addressed review comments, formated sections to more closely match [template](https://github.com/near-ndc/gwg/blob/main/TEMPLATE-SPEC.md)                                                                            |
-
-## Open Questions
-
-<!-- Topics not covered in this document that need to be addressed in a meeting or async -->
-
-Please include your knowledge & opinions via PR
-
-**Q:** Should use Social DB for upvotes?
-
-**A:**
-
-**Q:** Should we issue SBT when someone gives a Kudo (Con: Feels spammy, costs more)? Or when someone claims their SBT after reaching a # of upvotes (Con: Less SBT will be issued)?
-
-**A:**
-
-**Q:** What happens when a Kudo expires? 
-
-**A:**
-
-**Q:** Is commenting limited to verified humans?
-
-**A:**
-
-**Q:** Who would "follow a kudo" and why? What notifications would such a follow recieve? 
-
-**A:**
-
-**Q:** What threshold can we define for when an audit is appropriate? 
-
-**A:**
-
-## Overview
-
-<!-- One page high-level overview; put details in the specification section and background in the previous section. Should be understandable by a new engineer or reader who isn't already working on the project. -->
 
 ### Challenge
 
@@ -106,7 +54,7 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
 - High Five
 - Props
 
-## Features
+## Use Cases
 
 <!-- Who is using this and what does it do? Leave "how" to the design/tech specification sections -->
 
@@ -141,7 +89,7 @@ Upvoting is required in various contexts on [NS](https://near.social). Once we h
   - Create or remove categories (aka tags)
   - Adjust experiation time of Kudos
 
-### User Stories / Use Cases
+### User Stories
 
 Here are some user stories or use cases for the Kudos widget based on the provided text:
 
@@ -155,7 +103,7 @@ Here are some user stories or use cases for the Kudos widget based on the provid
 8. As an **administrator**, I want to delete Kudos, so I can remove inappropriate or unwanted content from the platform.
 9. As an **administrator**, I want to change settings, such as creating or removing categories, adjusting expiration time of Kudos, and deleting Kudos, so I can maintain a positive and productive environment for the community.
 
-### Additional Requirements
+### Additional Features & Requirements
 
 The following features will use the Social DB smart contract with the Kudos UI developed in Near Social.
 
@@ -294,7 +242,39 @@ https://app.visily.ai/projects/68d0d584-1866-4343-86b5-d1ab1bdef11d/boards/46453
 
 Contract is low risk until reputation gained with Kudos grants access to funds without human approval. When we see significant adoption/integrations then we can dedicate funds for a formal audit. 
 
+## Open Questions
+
+<!-- Topics not covered in this document that need to be addressed in a meeting or async -->
+
+Please include your knowledge & opinions via PR
+
+**Q:** Should use Social DB for upvotes?
+
+**A:**
+
+**Q:** Should we issue SBT when someone gives a Kudo (Con: Feels spammy, costs more)? Or when someone claims their SBT after reaching a # of upvotes (Con: Less SBT will be issued)?
+
+**A:**
+
+**Q:** What happens when a Kudo expires? 
+
+**A:**
+
+**Q:** Is commenting limited to verified humans?
+
+**A:**
+
+**Q:** Who would "follow a kudo" and why? What notifications would such a follow recieve? 
+
+**A:**
+
+**Q:** What threshold can we define for when an audit is appropriate? 
+
+**A:**
+
 ## Glossary & References
+
+<!-- Are there any relevant PR comments, issues that led up to this, or articles referenced for why we made the given design choice? Acryonyms or other terminology that could be misunderstood? -->
 
 **Kudo** is a form of a recommendation to share a gratitude or achievement shared between humans.
 
@@ -309,6 +289,26 @@ Contract is low risk until reputation gained with Kudos grants access to funds w
 **Near Social (NS)** tbd
 
 **Widget** tbd
+
+## Changelog
+
+<!--
+Points for reviewers to consider:
+
+- Be pragmatic: Is there enough information to begin coding? Practically, implementation will reveal the unforeseeable. This doc can evolve to record those issues/resolutions.
+- Wide angle view: Do you know of overlapping projects? Are there OKRs or other non-technical forces that would push/pull priority?
+- Optimization: Describe alternate approaches and why they are better. Use Caveats section for approaches under consideration, even if they are ultimately abandoned. 
+
+--> 
+
+**Authors & Reviewers:** @starpause, @robert-zaremba, @htafolla
+*Please insert your name here if you do review the document.*
+
+| Ver. | Date       | Author          | Changes Made                             |
+| ------- | ---------- | --------------- | ---------------------------------------- |
+| 0.1.0   | 2023-04-21 | @starpause      | Initial draft of the document            |
+| 0.2.0   | 2023-04-23 | @starpause      | Merged prior writting by @robert-zaremba from his [Github version](https://github.com/near-ndc/gwg/pull/1)                   |
+| 0.3.0   | 2023-04-25 | @starpause      | Addressed review comments, formated sections to more closely match [template](https://github.com/near-ndc/gwg/blob/main/TEMPLATE-SPEC.md)                                                                            |
 
 ## Copyright
 
