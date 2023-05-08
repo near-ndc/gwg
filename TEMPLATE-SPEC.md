@@ -27,7 +27,7 @@ Requires: spec-xyz | ip-xyz
 
 <!-- Who is using this and what does it do? Leave "how" to the design/tech specification sections -->
 
-### Actors / Actions
+### Actors and Actions
 
 <!-- List the different groups of people that will use this widget and what each one can specifically do. If more clarity is needed you can include an actor/action matrix. List all users and their types. List the actions each collective will take individually. User profile description. Describe which action is done by which actors. Feel free to use a table format or provide your own graphics or bundle the description in the Actions section. A "swimlane process chart" often works well here. -->
 
