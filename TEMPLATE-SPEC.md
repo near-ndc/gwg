@@ -19,7 +19,7 @@ Requires: spec-xyz | ip-xyz
 <!-- List the challenge(s) being solved by this widget. What is the problem? -->
 <!-- One page high-level overview; put details in the specification section and background in the previous section. Should be understandable by a new engineer or reader who isn't already working on the project. -->
 
-### Context / Background
+### Context
 
 <!-- Stuff one needs to know to understand this doc: motivating examples, previous versions and problems, links to related projects/design docs, etc. You should mention related work outside of Google if applicable. Note: this is background; do not write about your design or ideas to solve problems here. What's the "historical" context? Why do we need a new project? Identify the problems and the needs. -->
 
