@@ -11,9 +11,8 @@ Requires: spec-xyz | ip-xyz
 
 ## Overview
 
-<!-- One page high-level overview; put details in the specification section and background in the previous section. Should be understandable by a new engineer or reader who isn't already working on the project. -->
+<!-- One page high-level overview; put details in the specification section and background in the previous section. Should be understandable by a new engineer or reader who isn't already working on the project. Short summary in layman terms. -->
 
-Short summary in layman terms.
 
 ### Challenge
 
@@ -22,10 +21,7 @@ Short summary in layman terms.
 
 ### Context / Background
 
-<!-- Stuff one needs to know to understand this doc: motivating examples, previous versions and problems, links to related projects/design docs, etc. You should mention related work outside of Google if applicable. Note: this is background; do not write about your design or ideas to solve problems here. -->
-
-What's the "historical" context? Why do we need a new project?
-Identify the problems and the needs.
+<!-- Stuff one needs to know to understand this doc: motivating examples, previous versions and problems, links to related projects/design docs, etc. You should mention related work outside of Google if applicable. Note: this is background; do not write about your design or ideas to solve problems here. What's the "historical" context? Why do we need a new project? Identify the problems and the needs. -->
 
 ## Use Cases
 
@@ -33,32 +29,13 @@ Identify the problems and the needs.
 
 ### Actors / Actions
 
-<!-- List the different groups of people that will use this widget and what each one can specifically do. If more clarity is needed you can include an actor/action matrix -->
-
-List all users and their types. List the actions each collective will take individually. User profile description. 
-
-Describe which action is done by which actors. Feel free to use a table format or provide your own graphics or bundle the description in the Actions section. A "swimlane process chart" often works well here.
-
-
-
-|         | Action 1 | Action 2 | Action 3 | action 4 |
-| ------- | -------- | -------- | -------- | -------- |
-| Actor 1 |          |          |          |          |
-| Actor 2 |          |          |          |          |
-| Actor 3 |          |          |          |          |
-| Actor 4 |          |          |          |          |
+<!-- List the different groups of people that will use this widget and what each one can specifically do. If more clarity is needed you can include an actor/action matrix. List all users and their types. List the actions each collective will take individually. User profile description. Describe which action is done by which actors. Feel free to use a table format or provide your own graphics or bundle the description in the Actions section. A "swimlane process chart" often works well here. -->
 
 ### User Stories
 
 ### Additional Features & Requirements
 
-Describe:
-
-- Expected functionality.
-- Potential security issues and requirements.
-- Requirements, assumptions and dependencies (internal and external).
-- Outline identified potential problems and roadblocks related to building the solution.
-- Optionally: Budget limit.
+<!-- Optionally, describe: Expected functionality, Security issues/requirements, Assumptions/dependencies (internal and external), Potential problems/roadblocks, Budget concerns. -->
 
 ## Tech Spec
 
@@ -88,7 +65,7 @@ Describe:
 
 ### Backwards Compatibility
 
-All proposals that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The doc must explain how to deal with these incompatibilities or the set of requirements to for the backward compatibility to be discussed in a submission. Submissions without a sufficient backwards compatibility treatise may be rejected outright.
+<!-- All proposals that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The doc must explain how to deal with these incompatibilities or the set of requirements to for the backward compatibility to be discussed in a submission. Submissions without a sufficient backwards compatibility treatise may be rejected outright. -->
 
 ## Consequences
 
@@ -118,10 +95,7 @@ All proposals that introduce backwards incompatibilities must include a section 
 
 ## Open Questions and Comments
 
-<!-- Topics not covered in this document that need to be addressed in a meeting or async -->
-
-- potential future improvements
-- summary of open discussion
+<!-- Topics not covered in this document that need to be addressed in a meeting or async. Potential future improvements, Summary of open discussion. -->
 
 ## Glossary & References
 
