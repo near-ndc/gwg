@@ -248,6 +248,10 @@ Contract is low risk until reputation gained with Kudos grants access to funds w
 
 Please include your knowledge & opinions via PR
 
+**Q:** Should users be able to delete Kudos assigned to them? 
+
+**A:** To begin with I think it's good enough for administrators to have that right. It may be a feature that only admins can delete (in cases of behavior against COC) but it's still appropriate for a kudo to appear even if a nominee doesn't desire it. One hypothetical situation would be a nominee who wants one governance seat so they get nominated for that & want to delete their nominations for any other governance seat to improve their chances of their preferred seat, even though they would be a better fit for another seat.
+
 **Q:** Should use Social DB for upvotes?
 
 **A:**
