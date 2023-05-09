@@ -9,23 +9,19 @@ Requires: spec-xyz | ip-xyz
 
 # Spec-<Number>: <Title>
 
-## Overview
+## Summary
 
 <!-- One page high-level overview; put details in the specification section and background in the previous section. Should be understandable by a new engineer or reader who isn't already working on the project. Short summary in layman terms. -->
-
-
-### Challenge
-
 <!-- List the challenge(s) being solved by this widget. What is the problem? -->
 <!-- One page high-level overview; put details in the specification section and background in the previous section. Should be understandable by a new engineer or reader who isn't already working on the project. -->
 
-### Context
+## Motivation
 
-<!-- Stuff one needs to know to understand this doc: motivating examples, previous versions and problems, links to related projects/design docs, etc. You should mention related work outside of Google if applicable. Note: this is background; do not write about your design or ideas to solve problems here. What's the "historical" context? Why do we need a new project? Identify the problems and the needs. -->
+<!-- Context one needs to know to understand this doc: motivating examples, previous versions and problems, links to related projects/design docs, etc. You should mention related work outside of NEAR if applicable. Note: this is background; do not write about your design or ideas to solve problems here. What's the "historical" context? Why do we need a new project? Identify the problems and the needs. -->
 
 ## Use Cases
 
-<!-- Who is using this and what does it do? Leave "how" to the design/tech specification sections -->
+<!-- Who is using this and what does it do? Leave "how" to the design/tech specification sections. If the solution doesn't help these people achieve their goal then the project isn't successful, even if it fills all of the specified technical requirements. -->
 
 ### Actors and Actions
 
