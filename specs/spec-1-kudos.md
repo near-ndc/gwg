@@ -21,7 +21,7 @@ Kudos is a widget to build a reputation. The widget will allow any verified huma
 
 The specific purpose of the Kudos widget is to crowd source reputation through gamification. Kudos needs to foster recognition and celebrations of individuals for their contribution to NEAR (in the context of nodes, projects, workgroups, collectives, etc).  
 
-### Context / Background
+### Context
 
 <!-- Stuff one needs to know to understand this doc: motivating examples, previous versions and problems, links to related projects/design docs, etc. You should mention related work outside of Google if applicable. Note: this is background; do not write about your design or ideas to solve problems here. -->
 
