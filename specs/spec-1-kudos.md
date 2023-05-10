@@ -305,7 +305,7 @@ Points for reviewers to consider:
 
 --> 
 
-**Authors & Reviewers:** @starpause, @robert-zaremba, @htafolla
+**Authors & Reviewers:** @starpause, @robert-zaremba, @htafolla, @KazanderDad 
 *Please insert your name here if you do review the document.*
 
 | Ver. | Date       | Author          | Changes Made                             |
