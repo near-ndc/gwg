@@ -10,6 +10,7 @@ Requires: spec-1-kudos.md
 # RFP-2: Kudos Widget for NDC
 
 ## Summary
+
 Request For Proposal
 
 **NDC is looking for proponents to submit their proposals to develop a "Kudos" widget on near.social.**
@@ -19,9 +20,10 @@ Request For Proposal
 Kudos is a widget that will enable people to build on-chain reputation. The widget will allow any verified human to nominate, recieve, and interact with Kudos on Near Social. 
 
 Special attention is required to spam protection in order to ensure that people percieve interacting with Kudos as a very positive experience. Key spam protection concepts include:
-  - setting preferences for who can send me kudos and who can comment on them
-  - allowing recipients to not accept and/or delete unwanted Kudos
-  - requiring that users are i-am-human-certified before they can send or comment on Kudos
+
+- setting preferences for who can send me kudos and who can comment on them
+- allowing recipients to not accept and/or delete unwanted Kudos
+- requiring that users are i-am-human-certified before they can send or comment on Kudos
 
 Please refer to this link to see the full specification for this RFP: **[spec-1-kudos.md](https://github.com/near-ndc/gwg/blob/main/specs/spec-1-kudos.md)**
 
@@ -52,6 +54,7 @@ Please refer to this link to see the full specification for this RFP: **[spec-1-
 The Governance Working Group will review these proposals and post an Attestation to the various proposals as part of making the selection. ‍ We may also select a runner-up in case the primary proponent does not pass KYC.
 
 Evaluation criteria will include
+
 - Solution architecture
 - Team’s Technical Capabilities, completeness
 - Team’s BOS experience
