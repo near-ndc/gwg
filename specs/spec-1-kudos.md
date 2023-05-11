@@ -168,6 +168,7 @@ The following features will use the Social DB smart contract with the Kudos UI d
 
 <!-- What functions and functionalities should the widget have -->
 Kudos should support two main smart contract functions:
+
 - isHuman (pseudocode example)
 
     <code>token = sbt_tokens_by_owner("user.near", "gooddollar-v1.i-am-human.near", 1)
