@@ -312,7 +312,7 @@ Please include your knowledge & opinions via PR
 
 <!-- Are there any relevant PR comments, issues that led up to this, or articles referenced for why we made the given design choice? Acryonyms or other terminology that could be misunderstood? -->
 
-**Kudo** Plural: Kudos - is a form of a recommendation to share a gratitude or achievement shared between humans.
+**Kudo** (_plural: Kudos_) is a form of a recommendation to share a gratitude or achievement shared between humans.
 
 **I Am Human (IAH)** Protocol for verifying personhood. 
 
