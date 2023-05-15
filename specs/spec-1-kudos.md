@@ -171,10 +171,12 @@ Kudos should support two main smart contract functions:
 
 - isHuman (pseudocode example)
 
-    <code>token = sbt_tokens_by_owner("user.near", "gooddollar-v1.i-am-human.near", 1)
+    ```
+    token = sbt_tokens_by_owner("user.near", "gooddollar-v1.i-am-human.near", 1)
     if !token || token.metadata.expires_at < now {
       return NotAuthorized() // no token or token expired.
-    }</code>
+    }
+    ```
 
 - mintSBT (see NEP-393 for examples)
 
