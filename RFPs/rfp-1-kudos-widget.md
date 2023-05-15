@@ -31,23 +31,23 @@ Please refer to this link to see the full specification for this RFP: **[spec-1-
 
 1. Proponents post their intent to respond
     - Location: Comment on [NDC Gigs](https://near.social/#/neardigitalcollective.near/widget/Gigs)
-    - Deadline: **Wednesday May 17, 2023**
+    - Deadline: **Friday May 19, 2023**
 2. Proponents post their questions
     - Location: Comment on [NDC Gigs](https://near.social/#/neardigitalcollective.near/widget/Gigs)
-    - Deadline: **Wednesday May 17, 2023**
+    - Deadline: **Friday May 19, 2023**
 3. GWG Technical WG responds to questions 
     - Location: Comments on [NDC Gigs](https://near.social/#/neardigitalcollective.near/widget/Gigs)
-    - Deadline: **Thursday May 18, 2023**
+    - Deadline: **Monday May 22, 2023**
 4. Proponents submit their Proposals 
     - Location: 
       - Create your own folder in [this structure](https://github.com/near-ndc/gwg/tree/main/RFPs/submissions/rfp-2-kudos) and upload your content there (pull request). 
       - A public post of your proposal is required, with the exception of commercial details.
       - Commercial details can be emailed separately to [neardigitalcollective at gmail dot com]
-    - Deadline: **Sunday May 21, 2023**
+    - Deadline: **Wednesday May 24, 2023**
 5. A GWG Panel awards work to successful proponent
     - Location: Comments on [NDC Gigs](https://near.social/#/neardigitalcollective.near/widget/Gigs)
-    - Deadline: **Tuesday May 23, 2023**
-6. Expected delivery time: **June 23, 2023**
+    - Deadline: **Friday May 26, 2023**
+6. Expected delivery time: **Friday June 23, 2023** or earlier if possible
 
 ## Selection Criteria
 
