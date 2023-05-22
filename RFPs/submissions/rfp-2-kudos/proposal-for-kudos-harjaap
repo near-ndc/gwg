@@ -1,0 +1,29 @@
+Solution architecture
+Kudos Widget Specification
+Overview
+The Kudos Widget is a user interface component designed to seamlessly integrate the user experience with the i-am-human smart contract. The goal is to validate user's human identity and provide them with the ability to send and receive 'kudos' through the platform while ensuring the security of interactions.
+
+Functionality
+User Verification
+The widget will call the i-am-human smart contract for user authentication. Upon user interaction with the widget, it will initiate the smart contract execution to verify that the user is human.
+
+Sending Kudos
+Once the user is verified as human, they will have the option to send 'kudos'.
+The user can select a recipient from their contacts or by searching usernames. They can also add a short message along with the kudos.
+The widget will interact with the kudos smart contract, which will execute the transaction, sending the kudos from the user's account to the recipient's account.
+
+Receiving Kudos
+Any verified user can receive 'kudos'.
+The received kudos will appear in the user's account, and they will receive a notification via the widget. The sender's username and accompanying message (if any) will also be displayed.
+
+Displaying Kudos
+The widget will maintain a count of the total 'kudos' each user has received and display it on their profile.
+
+Team’s Technical Capabilities, completeness : I have been a core contributor to I am human web app and have worked with Javascript ReactJS and CSS , And NEARJS API
+
+Team’s BOS experience : I have completed 2 bounties - made easypoll widget mobile responsive
+
+worked on easypoll integration with IAH
+Project approach: I will keep NDC updated with regular updates on the development , and will be available for any future development to the widget at an hourly basis
+
+Customer success practices : I'll take feedback from NDC and the potential customers for this widget !
