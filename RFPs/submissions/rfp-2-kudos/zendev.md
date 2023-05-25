@@ -8,8 +8,9 @@ Created: 2023-05-25
 # RFP-2: Kudos Widget for NDC
 
 ## Summary
-App build on BOS, using SocialDB. It will integrate i-am-human. So idea is no metter how many wallets user create, user account will depeand of i-am-human contract 
-The widget will allow any verified human to nominate, recieve, and interact with Kudos on Near Social. 
+Constructed on the foundation of BOS and utilizing SocialDB, the application will integrate the i-am-human verification system. This integration ensures that, regardless of the number of wallets a user creates, their account will be governed by the i-am-human contract.
+
+The Kudos widget, as a key component of this application, will empower every verified human user to nominate, receive, and engage with Kudos on Near Social. This enables a streamlined, secure, and human-centric interaction model within the platform.
 
 ## Context 
 On the blockchain-based social platform, Near Social, users need a way to recognize, appreciate, and validate each other's contributions in a consistent, tamper-proof, and meaningful way. The challenge lies in the lack of an integrated, on-chain mechanism to manage and verify such reputation indicators.
