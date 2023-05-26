@@ -16,7 +16,7 @@ Requires: n/a
 
 The Election UI provides an interface for people to see the status of current + past NDC Congressional Body elections. This includes the candidates and votes that have been cast. 
 
-Canidates are included in the Election UI after they've been nominated via Kudos (or a Nominate specific fork of Kudos). After an election the winning candidates are assigned seats in NDC congress.
+Canidates are included in the Election UI after they've been nominated via [Kudos](https://github.com/near-ndc/gwg/blob/main/specs/spec-1-kudos.md) (or a Nominate specific fork of Kudos). After an election the winning candidates are assigned seats in NDC congress.
 
 ## Motivation
 
@@ -108,10 +108,6 @@ These user stories illustrate the needs and desires of the actors rather than pe
 
 <!-- Optionally, describe: Expected functionality, Security issues/requirements, Assumptions/dependencies (internal and external), Potential problems/roadblocks, Budget concerns. -->
 
-- Ability to override -> on chain transaction
-- See vote history, edit -> override
-- Details on candidate platform in original RFP from nomination process
-- Query self nominations to specific seat and term - > write platform, why they want to run -> they should make robust
 - Edit profile in the scope of near social profile
 - Results -> green check mark
 - Votes can not be changed once cast, but can be changed before they are. 
@@ -146,9 +142,8 @@ Voting Contracts @ https://github.com/near-ndc/voting-v1
 
 <!-- Does the widget interact with other widgets? -->
 
-### Backwards Compatibility
-
-<!-- All proposals that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The doc must explain how to deal with these incompatibilities or the set of requirements to for the backward compatibility to be discussed in a submission. Submissions without a sufficient backwards compatibility treatise may be rejected outright. -->
+- Kudos Widget
+- Near Social Profile
 
 ## Open Questions and Comments
 
@@ -164,6 +159,11 @@ Voting Contracts @ https://github.com/near-ndc/voting-v1
     - How long will the do-over elections be? Shorter?
     - How will the UX change for do-over elections?
 - Can election results be vetoed? How does that work?
+- "Ability to override -> on chain transaction" and "See vote history, edit -> override" was discussed, what are these?
+- Do we need to pull details on candidate platform in original RFP from nomination process? Or just link to it? 
+  - MVP approach can be to link.
+- Query self nominations to specific seat and term - > write platform, why they want to run -> they should make robust
+  - MVP we can rely on Nominate and Near Social Profile to fill these in.
 
 ## Glossary & References
 
