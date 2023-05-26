@@ -25,6 +25,7 @@ Canidates are included in the Election UI after they've been nominated via Kudos
 The following is to provide context for the electing the NDC Congressional Bodies, which are the House of Merit, Transparency Commission, and Council of Advisors. Voting is conducted by verified humans in the NDC (denoted as members of the Voting Body).
 
 The overall governance flow:
+
 1. **Nomination process**, which involves a self vote (based off of kudos) and accompanying attestation and a kudo + attestation by another voting body members
 2. **Election process** (the scope of this RFP), which involves voting body members having x amount of credits per congressional body and congressional 
 3. **Congress in session**: when the elected congressional members make decisions during their bi-annual tenure in their body including passing setup packages, approving budget of constellations etc. 
@@ -49,12 +50,12 @@ These user stories illustrate the needs and desires of the actors rather than pe
 
 ### Voter
 
-**Outside of Election UI but still in BOS**
+#### Outside of Election UI but still in BOS
 
 - I want to be notified when the election opens and notified when the election is about to close directly on BOS [notification widget].
 - I want to know about upcoming elections and their dates. 
 
-**Viewing a Live Election**
+#### Viewing a Live Election
 
 - I want to see all the candidates for each congressional body, so I know my options.
 - I want to see current voting results, so I know everything is happening on chain.
@@ -63,7 +64,7 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - I want to understand the time frame I'm looking at defined both in terms of Congressional # and year.
 - I want to see the results of an election after it was over with transaction history, so there is accountability after the election.
 
-**Voting in a Live Election**
+#### Voting in a Live Election
 
 - I want a cart of candidates, so I can organize who I am voting for before I cast a vote on chain.
 - I want to be able to vote on each Congressional body one at a time so I don’t have to make the entire decision at once.
@@ -77,14 +78,15 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - I want to see time until the next Congressional election after a vote is over, so I can plan to run for upcoming congressional elections.
 - I want to see past election results (even if its first vote - show no past election), so I can gauge the electorate’s sentiment.
 
-**Viewing Election Candidates**
+#### Viewing Election Candidates
 
 - I want to see a candidate profile (Near Social) and the platform they used to nominate themselves (nomination mechism).
 - I want to see a candidate's past congressional history on profile (past roles, proposals, and complaints), so I can audit their past performance.
 - I want to see the profile + attestation (queried from the nomination process) for a candidate so I can see social proof for why someone was elected.
 - I want to see what DAOs a candidate is in even if they are not part of NDC, in order to understand what communities they are a part of.
 
-**Runoffs**
+#### Runoffs
+
 - I want to know whether the election resulted in any tie, and what are the clear next steps to finalizing runoff.
 
 ### Watchdog
@@ -156,11 +158,11 @@ Voting Contracts @ https://github.com/near-ndc/voting-v1
 - Considering votes are on-chain and don’t lack privacy, should we be able to see votes? In the spec above we are assuming yes. Going off of this, we are unclear on whether a voting body member can override their vote for a congressional body before the deadline as it would make the vote even more susceptible to swindling.
 - One of the biggest challenges for NDC Voting body members is to notify them of a vote. THis brings an overall question of outside of BOS Push notification, and what point of the I-AM-HUMAN onboarding flow will users optin and enable Web2 notifications (in a GDPR compliant fashion) so we can remind them of voting (and other NDC critical updates) outside of BOS. This may result in a separate spec for overall NDC GDPR Compliant Notifications
 - What is our runoff policy? 
-    - Path of least resistance is allowing admins to add or remove congress seats. This is the default expected implementation.
-    - Another appraoch would be to redo the election for candidates who got tie. There are still open questions with this approach:
-        - Does it require code changes?
-        - How long will the do-over elections be? Shorter?
-        - How will the UX change for do-over elections?
+  - Path of least resistance is allowing admins to add or remove congress seats. This is the default expected implementation.
+  - Another appraoch would be to redo the election for candidates who got tie. There are still open questions with this approach:
+    - Does it require code changes?
+    - How long will the do-over elections be? Shorter?
+    - How will the UX change for do-over elections?
 - Can election results be vetoed? How does that work?
 
 ## Glossary & References
@@ -171,8 +173,6 @@ Voting Contracts @ https://github.com/near-ndc/voting-v1
 - [NDC Product Book](https://docs.google.com/document/d/1w_wfRfp-ISH7g-zu7vAFULVvRNwyLGwNIDC1EBkxvu0/edit)
 - [NDC v1 Smart Contracts](https://github.com/near-ndc/voting-v1)
 - [Figma Designs v1](https://www.figma.com/file/JqeSbADxp3PNEcycCpIYfd/Election-UI?type=design&node-id=0-1&t=fc1tAPlqA8oVPwu8-0)
-
-## Changelog
 
 ## Changelog
 
