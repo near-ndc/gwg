@@ -52,34 +52,34 @@ Second version will have extra functionalities, such as notifications, admin pag
 
 ### Version 1
 1. Design ( Mobile/Tablet/Desktop) UI & UX 
-  - 2 Weeks - 400 NEAR
+  - 2 Weeks - 500 NEAR
 2. Setup Project 
   - define how interface will looks in SocialDB ( SocialDB )
   - define routes ( BOS )
   - define Widgets ( BOS )
   -- 2 days 
 3. Homepage
-  - What is Kudos + Recent Kudos List - 1 week
+  - What is Kudos + Recent Kudos List 
   - Filters (1 week) 
   - Search (1 week)
-  -- 2 - 3 weeks 500 NEAR 
+  -- 2 - 3 weeks 800 NEAR 
 4. Single Kudos Page
   - Infos about single Kudos
   - if user is one who created it it can be editable 
   - share link 
   - upvote/reaction
   - should user be able to remove upvote
-  - - 2-3 weeks ( Blockchain + BOS) 350
+  - - 2-3 weeks ( Blockchain + BOS) 400
 5. New Kudos Page 
   - Form where user can create new kudos
   - define tags / categories
-  - - 2 weeks ( Blockchain + BOS) 350
+  - - 2 weeks ( Blockchain + BOS) 400
 6. Profile Page
   - Received Kudos
   - Pending Kudos
   - Created Kudos -> Edit kudos 
   - Filters 
-  - 3 weeks ( Blockchain + BOS) 400 NEAR
+  - 3 weeks ( Blockchain + BOS) 500 NEAR
 7. Header + Footer 
   - Dynamic renders based on props ( BOS )
   - - 1 week 150 NEAR 
@@ -101,7 +101,7 @@ Second version will have extra functionalities, such as notifications, admin pag
 **Diagram with users flow & app permisions can be found [here](https://miro.com/app/board/uXjVMGLmjJ4=/)**
 
 Aprox time for desigh: 2 weeks - 400-500 NEAR 
-Aprox time for development (for things which we know): 14 weeks -> 2 devs ( 7-8 weeks each ) -  2300 NEAR 
+Aprox time for development (for things which we know): 14 weeks -> 2 devs ( 7-8 weeks each ) -  3000 NEAR 
 
 Price and time frame are not fixed, after clarifications we can talk more about it. But this is like initial offer
 
