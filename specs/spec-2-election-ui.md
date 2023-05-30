@@ -44,7 +44,6 @@ Actions are broken down by actors:
 - Voter
 - Candidate
 - Watchdog (no IAH credentials)
-- Admin
 
 These user stories illustrate the needs and desires of the actors rather than perscribing how the actors will achieve their goals.
 
@@ -96,12 +95,6 @@ These user stories illustrate the needs and desires of the actors rather than pe
 
 - I want elections to be relatively short so that the time I spend campaigning can be focused. 
 - I want to see how much of the voting body has voted in total so I can plan campaign efforts.
-
-### Admin
-
-- I want to start and stop elections.
-- I want to fill in the canidates for election for each of the congress bodies.
-- I want to extend or reduce the number of seats in case there is a runoff. 
 
 ### Additional Features & Requirements
 
@@ -197,6 +190,7 @@ Points for reviewers to consider:
 
 | Ver. | Date       | Author          | Changes Made                             |
 | ------- | ---------- | --------------- | ---------------------------------------- |
+| 0.1.2   | 2023-05-30 | @starpause      | Removed Admin (they'll use CLI)          |
 | 0.1.1   | 2023-05-30 | @starpause      | Resolved Qs, Added wireframes            |
 | 0.1.0   | 2023-05-25 | @starpause      | Initial draft of the document            |
 
