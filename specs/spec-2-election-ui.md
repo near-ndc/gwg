@@ -71,7 +71,6 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - I want to be able to toggle between Congressional bodies so I can more easily choose candidates and my vote status.
 - I want to see how many votes I have cast and have left for each congressional body, to better allocate my votes and understand the quadratic voting process.
 - I want to learn about quadratic voting because it's new to me.
-- I want to audit votes for authenticity by viewing on chain transactions.
 - I want to easily increment and decrement the votes I've assigned to each canidate. 
 - I want to know when I've used up all of my votes so I don't case more votes than I have (Disabled UI, toast notification)
 - I want to save my progress for voting/cart, so I can resume + calculate quadratic voting strategy at a later vote without having to submit the whole decision.
@@ -136,7 +135,15 @@ Voting Contracts @ https://github.com/near-ndc/voting-v1
 
 ### Wireframes / Screens
 
+- [2023-05-30 v0.1.0](https://www.figma.com/file/OTKmz4ga22khc2vtWPFkzB/Election-UI-Wireframe?type=design&node-id=102%3A2&t=rNzg02hFvCuYLv9a-1)
+  - Desktop Voting for review
+  - Roughed out Desktop Profile & Desktop Admin
+
 ### UI Design
+
+Follow the NDC Brand Book in line with Material Design, falling back on vanilla [Bootstrap](https://getbootstrap.com/).
+
+![Primary and Secondary NDC Colors in a Material Design Pallet](https://i.imgur.com/Rzx9XnX.jpg)
 
 ### Dependent Widgets
 
@@ -148,22 +155,22 @@ Voting Contracts @ https://github.com/near-ndc/voting-v1
 ## Open Questions and Comments
 
 <!-- Topics not covered in this document that need to be addressed in a meeting or async. Potential future improvements, Summary of open discussion. -->
+### Open
 
-- How long is the election voting window? If no comment: 8 days (long enough that someone can take a week vacation and still participate in governance). 
-- Considering votes are on-chain and don’t lack privacy, should we be able to see votes? In the spec above we are assuming yes. Going off of this, we are unclear on whether a voting body member can override their vote for a congressional body before the deadline as it would make the vote even more susceptible to swindling.
-- One of the biggest challenges for NDC Voting body members is to notify them of a vote. THis brings an overall question of outside of BOS Push notification, and what point of the I-AM-HUMAN onboarding flow will users optin and enable Web2 notifications (in a GDPR compliant fashion) so we can remind them of voting (and other NDC critical updates) outside of BOS. This may result in a separate spec for overall NDC GDPR Compliant Notifications
-- What is our runoff policy? 
-  - Path of least resistance is allowing admins to add or remove congress seats. This is the default expected implementation.
-  - Another appraoch would be to redo the election for candidates who got tie. There are still open questions with this approach:
-    - Does it require code changes?
-    - How long will the do-over elections be? Shorter?
-    - How will the UX change for do-over elections?
-- Can election results be vetoed? How does that work?
-- "Ability to override -> on chain transaction" and "See vote history, edit -> override" was discussed, what are these?
-- Do we need to pull details on candidate platform in original RFP from nomination process? Or just link to it? 
-  - MVP approach can be to link.
-- Query self nominations to specific seat and term - > write platform, why they want to run -> they should make robust
-  - MVP we can rely on Nominate and Near Social Profile to fill these in.
+### Resoloved
+
+- **Q:** How long is the election voting window? If no comment: 8 days (long enough that someone can take a week vacation and still participate in governance). 
+  - **A:** Election timing will be retrieved from the smart contract. It will be set on the smart contract by NDC administrators.  
+- **Q:**Considering votes are on-chain and don’t lack privacy, should we be able to see votes? In the spec above we are assuming yes. Going off of this, we are unclear on whether a voting body member can override their vote for a congressional body before the deadline as it would make the vote even more susceptible to swindling.
+  - **A:** Yes, we will be displaying votes
+- **Q:** One of the biggest challenges for NDC Voting body members is to notify them of a vote. THis brings an overall question of outside of BOS Push notification, and what point of the I-AM-HUMAN onboarding flow will users optin and enable Web2 notifications (in a GDPR compliant fashion) so we can remind them of voting (and other NDC critical updates) outside of BOS. This may result in a separate spec for overall NDC GDPR Compliant Notifications
+  - **A:** We will use standard BOS notifications.
+- **Q:** What is our runoff policy? 
+  - **A:** An NDC administrator will begin a new runoff election in the case of a tie. 
+- **Q:** Can election results be vetoed? How does that work?
+  - **A:** If this is possible it will happen off chain as the NDC administrators are filling congress seats based on election results.  
+- **Q:** Do we need to pull details on candidate platform in original RFP from nomination process? Or just link to it? 
+  - **A:** MVP approach can be to link. Nice to have is a profile page that can be used to see relevant information for any candidate or voter.
 
 ## Glossary & References
 
@@ -190,6 +197,7 @@ Points for reviewers to consider:
 
 | Ver. | Date       | Author          | Changes Made                             |
 | ------- | ---------- | --------------- | ---------------------------------------- |
+| 0.1.1   | 2023-05-30 | @starpause      | Resolved Qs, Added wireframes            |
 | 0.1.0   | 2023-05-25 | @starpause      | Initial draft of the document            |
 
 
