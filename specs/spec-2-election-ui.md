@@ -108,9 +108,15 @@ These user stories illustrate the needs and desires of the actors rather than pe
 
 <!-- How does the product implement the features and requirements? Not every feature or requirement needs deep consideration here, but implementation considerations are discusssed they should be captured here. -->
 
-### Smart Contract Functions
+### Smart Contract Functions / Indexing / Backend
 
 <!-- What functions and functionalities should the widget have -->
+
+Election UI will need to query the following information from [https://github.com/near-ndc/voting-v1](https://github.com/near-ndc/voting-v1):
+- list of elections
+  - houses up for vote.   
+    - candidates for each house
+    - votes
 
 ### Data Structures
 
@@ -190,8 +196,6 @@ Points for reviewers to consider:
 
 | Ver. | Date       | Author          | Changes Made                             |
 | ------- | ---------- | --------------- | ---------------------------------------- |
-| 0.1.2   | 2023-05-30 | @starpause      | Removed Admin (they'll use CLI)          |
-| 0.1.1   | 2023-05-30 | @starpause      | Resolved Qs, Added wireframes            |
 | 0.1.0   | 2023-05-25 | @starpause      | Initial draft of the document            |
 
 
