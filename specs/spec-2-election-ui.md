@@ -30,7 +30,7 @@ The overall governance flow:
 2. **Election process** (the scope of this RFP), which involves voting body members having x amount of credits per congressional body and congressional 
 3. **Congress in session**: when the elected congressional members make decisions during their bi-annual tenure in their body including passing setup packages, approving budget of constellations etc. 
 
-We are assuming Nomination->Election ->Congressional Onboarding are done manually, (ex; by the governance working group) as opposed to automatically updated by cross contract calls. Each part of the process which is not manually handled will be on-chain. Automation will be worth building once we've proven the system works via manual effort. 
+We are assuming stage changes: Nomination -> Election -> Congressional Onboarding are done manually, (ex; by the governance working group) as opposed to automatically updated by cross contract calls. Each part of the process, which is not manually handled, will be on-chain. Automation will be worth building once we've proven the system works via manual effort. 
 
 Mechanisms of Nomination are out of scope as are mechanisms of assigning congress seats. We do need a way to clearly communicate who has been elected to congress seats.
 
