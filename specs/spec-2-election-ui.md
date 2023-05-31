@@ -16,7 +16,7 @@ Requires: n/a
 
 The Election UI provides an interface for people to see the status of current + past NDC Congressional Body elections. This includes the candidates and votes that have been cast. 
 
-Canidates are included in the Election UI after they've been nominated via [Kudos](https://github.com/near-ndc/gwg/blob/main/specs/spec-1-kudos.md) (or a Nominate specific fork of Kudos). After an election the winning candidates are assigned seats in NDC congress.
+Canidates are presented in the Election UI after they've been nominated via [Kudos](https://github.com/near-ndc/gwg/blob/main/specs/spec-1-kudos.md) (or a Nominate specific fork of Kudos). After an election the winning candidates are assigned seats in NDC congress.
 
 ## Motivation
 
