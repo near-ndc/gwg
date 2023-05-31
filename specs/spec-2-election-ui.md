@@ -68,7 +68,7 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - I want a cart of candidates, so I can organize who I am voting for before I cast a vote on chain.
 - I want to be able to vote on each Congressional body one at a time so I don’t have to make the entire decision at once.
 - I want to be able to toggle between Congressional bodies so I can more easily choose candidates and my vote status.
-- I want to see how many votes I have cast and have left for each congressional body, to better allocate my votes and understand the quadratic voting process.
+- I want to see how many _votes_ I have cast and how many _voting credits_ I have left for each congressional body, to better allocate my votes and understand the quadratic voting process.
 - I want to learn about quadratic voting because it's new to me.
 - I want to easily increment and decrement the votes I've assigned to each canidate. 
 - I want to know when I've used up all of my votes so I don't case more votes than I have (Disabled UI, toast notification)
