@@ -165,7 +165,7 @@ Follow the NDC Brand Book in line with Material Design, falling back on vanilla 
 - **Q:** One of the biggest challenges for NDC Voting body members is to notify them of a vote. THis brings an overall question of outside of BOS Push notification, and what point of the I-AM-HUMAN onboarding flow will users optin and enable Web2 notifications (in a GDPR compliant fashion) so we can remind them of voting (and other NDC critical updates) outside of BOS. This may result in a separate spec for overall NDC GDPR Compliant Notifications
   - **A:** We will use standard BOS notifications.
 - **Q:** What is our runoff policy? 
-  - **A:** An NDC administrator will begin a new runoff election in the case of a tie. 
+  - **A:** An administraotr will begin a new runoff election in the case of a tie. Starting elections is handled entirely on the contract side via CLI. The voting administrators will be a list of addresses on the voting contract who have permissions to call these functions. 
 - **Q:** Can election results be vetoed? How does that work?
   - **A:** If this is possible it will happen off chain as the NDC administrators are filling congress seats based on election results.  
 - **Q:** Do we need to pull details on candidate platform in original RFP from nomination process? Or just link to it? 
