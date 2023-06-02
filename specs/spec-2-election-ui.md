@@ -109,7 +109,6 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - This version won't accomodate "I want to see what DAOs a candidate is in even if they are not part of NDC, in order to understand what communities they are a part of.", which could be part of user profiles. 
 - Edit profile in the scope of Election UI. Users (candidates, voters, etc) can edit their Near Social profiles which Election UI links to.
 
-
 ## Tech Spec
 
 <!-- How does the product implement the features and requirements? Not every feature or requirement needs deep consideration here, but implementation considerations are discusssed they should be captured here. -->
@@ -119,6 +118,7 @@ These user stories illustrate the needs and desires of the actors rather than pe
 <!-- What functions and functionalities should the widget have -->
 
 Election UI will need to query the following information from [https://github.com/near-ndc/voting-v1](https://github.com/near-ndc/voting-v1):
+
 - list of elections
   - houses up for vote.   
     - candidates for each house
