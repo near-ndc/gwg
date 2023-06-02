@@ -71,7 +71,7 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - I want to see how many _votes_ I have cast and how many _voting credits_ I have left for each congressional body, to better allocate my votes and understand the quadratic voting process.
 - I want to learn about quadratic voting because it's new to me.
 - I want to easily increment and decrement the votes I've assigned to each canidate. 
-- I want to know when I've used up all of my vote credits so I don't case more votes than I have (Disabled UI, toast notification)
+- I want to know when I've used up all of my votes so I don't case more votes than I have (Disabled UI, toast notification)
 - I want to save my progress for voting/cart, so I can resume + calculate quadratic voting strategy at a later vote without having to submit the whole decision.
 - I want to see time until the next Congressional election after a vote is over, so I can plan to run for upcoming congressional elections.
 - I want to see past election results (even if its first vote - show no past election), so I can gauge the electorate’s sentiment.
@@ -81,7 +81,6 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - I want to see a candidate profile (Near Social) and the platform they used to nominate themselves (nomination mechism).
 - I want to see a candidate's past congressional history on profile (past roles, proposals, and complaints), so I can audit their past performance.
 - I want to see the profile + attestation (queried from the nomination process) for a candidate so I can see social proof for why someone was elected.
-- I want to see what DAOs a candidate is in even if they are not part of NDC, in order to understand what communities they are a part of.
 
 #### Runoffs
 
@@ -90,6 +89,7 @@ These user stories illustrate the needs and desires of the actors rather than pe
 ### Watchdog
 
 - I want to see details about the ongoing election to judge if it's worth my time and effort to join the NDC and be heard. 
+- I want to understand if an election is over or if it's underway. I want to understand who won the election. 
 
 ### Candidate
 
@@ -100,9 +100,15 @@ These user stories illustrate the needs and desires of the actors rather than pe
 
 <!-- Optionally, describe: Expected functionality, Security issues/requirements, Assumptions/dependencies (internal and external), Potential problems/roadblocks, Budget concerns. -->
 
-- Edit profile in the scope of near social profile
-- Results -> green check mark
 - Votes can not be changed once cast, but can be changed before they are. 
+
+### Considered "Nice To Haves" Which Are Out Of Scope
+
+- MVP won't have user profile pages. Candidate names link to their NS profile, candidate "Nomination" links to Kudos/Nominate.
+- MVP won't have a separate dashboard. Upcoming elections can be discovered two ways in the current interface: (1) Congress/Time selector (2) List of upcoming elections under the current election status graphic.
+- This version won't accomodate "I want to see what DAOs a candidate is in even if they are not part of NDC, in order to understand what communities they are a part of.", which could be part of user profiles. 
+- Edit profile in the scope of Election UI. Users (candidates, voters, etc) can edit their Near Social profiles which Election UI links to.
+
 
 ## Tech Spec
 
@@ -150,6 +156,26 @@ Follow the NDC Brand Book in line with Material Design, falling back on vanilla 
 
 - Kudos Widget
 - Near Social Profile
+
+## Work Plan
+
+<!-- This can be refined by a party replying to a RFP -->
+
+### Sprints
+
+<!-- Break work down into week long chunks. If a team hasn't been identified then assume it will be an individual completing the work. Each sprint should include something which can be considered "Done" so that the product is usable as soon as possible and then recieves incremental improvements. -->
+
+| Week # | Work to Complete |
+| -------- | -------- |
+|| Load latest election. |
+|| Displaying: Countdown to end, List of Congresses, List of Candidates. |
+|| Switch between houses inside an election. Hide/show votes, bookmark candidates. |
+|| Allocate votes (local storage or social graph storage). |
+|| Cast votes (write to chain). |
+|| Right sidebar: Visualization of votes (Pie or Circle Packing). |
+|| Switch between elections. |
+|| Right sidebar: List of upcoming elections. List of past elections. |
+|| Breakpoint styles for tablet and mobile. |
 
 ## Open Questions and Comments
 
