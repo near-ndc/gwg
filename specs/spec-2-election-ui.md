@@ -71,7 +71,7 @@ These user stories illustrate the needs and desires of the actors rather than pe
 - I want to see how many _votes_ I have cast and how many _voting credits_ I have left for each congressional body, to better allocate my votes and understand the quadratic voting process.
 - I want to learn about quadratic voting because it's new to me.
 - I want to easily increment and decrement the votes I've assigned to each canidate. 
-- I want to know when I've used up all of my votes so I don't case more votes than I have (Disabled UI, toast notification)
+- I want to know when I've used up all of my vote credits so I don't case more votes than I have (Disabled UI, toast notification)
 - I want to save my progress for voting/cart, so I can resume + calculate quadratic voting strategy at a later vote without having to submit the whole decision.
 - I want to see time until the next Congressional election after a vote is over, so I can plan to run for upcoming congressional elections.
 - I want to see past election results (even if its first vote - show no past election), so I can gauge the electorate’s sentiment.
